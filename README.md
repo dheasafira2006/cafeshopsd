@@ -1,55 +1,59 @@
-# 🌟 UAS Kelompok 5 🌟
+**☕ UAS Kelompok – Website Caffe ShopSugar Daddy ☕**
 
-## 📂 Struktur Proyek
-- **Dokumen UAS** 📄
-  - 📘 Dokumentasi Awal Proyek Website Caffe Shop Sugar Daddy.pdf
-  - 📙 Fitur Database[1].pdf
-  - 📗 LAPORAN TUGAS UAS kelompok 2.pdf
-  - 📕 MANUAL PENGGUNAAN SISTEM MANAJEMEN.pdf
-- **Folder Basic** 📁
-  - 🔧 Codingan composer
+**📦 Struktur Proyek**
+Repositori ini berisi source code lengkap dari proyek Ujian Akhir Semester berupa aplikasi web manajemen penjualan pada Caffe ShopSugar Daddy. Proyek ini dikembangkan untuk membantu digitalisasi layanan kafe melalui sistem berbasis web.
 
----
+**📁 Struktur Folder & File**
+/js/ – Berisi script JavaScript seperti script.js untuk interaksi halaman.
 
-## Tech Stack
-![Database](https://img.shields.io/badge/database-MySQL-green) ![Framework](https://img.shields.io/badge/framework-Yii2-blue) ![Language](https://img.shields.io/badge/language-PHP-blue) ![Environment](https://img.shields.io/badge/environment-XAMPP-orange) ![Dependencies](https://img.shields.io/badge/dependencies-Composer-yellow)
+/gambar/ – Menyimpan gambar-gambar produk kafe.
 
----
+/query/ – Kumpulan file PHP yang menjalankan perintah SQL seperti produk.php dan pengguna.php.
 
-## Documentation
-For detailed documentation, refer to the files linked below (written in Indonesian):
+/vendor/ – Folder autoload Composer yang mencakup library tambahan seperti PHPMailer/.
 
-- 📘 [Dokumen Awal Proyek](#)
-- 📙 [Fitur Basis Data](#)
-- 📗 [Laporan Tugas UAS](#)
-- 📕 [Manual Penggunaan Sistem](#)
+**📄 File PHP Utama**
+Halaman pelanggan & admin: index.php, dashboard.php, beranda.php
 
----
+Manajemen produk: tambah-produk.php, edit-produk.php, manajemen_produk.php
 
-## 🤝 Contributors
-| Contributor                        | GitHub Profile                                      |
-|------------------------------------|-----------------------------------------------------|
-| **Amalia Khoirun Nisa**            | [🌐 Profile](https://github.com/sandraalmeera)     |
-| **Annisa Dea Safira**              | [🌐 Profile](https://github.com/yesicafapa)        |
-|  **Nanda Herni Pramudyaningtiyas** |   
+Transaksi: keranjang.php, checkout.php, pembayaran.php, proses_pembayaran.php
 
----
+Autentikasi pengguna: login.php, register.php, logout.php, ganti_password.php, verifikasi_otp.php
 
-## 📝 Deskripsi
-This repository is the collaborative work of **Kelompok 2** for the **UAS Project**. It includes:
-- 📌 Initial project documentation.
-- 📌 Database features.
-- 📌 Group project report.
-- 📌 System usage manual.
+**🎨 Style Tampilan**
+Desain antarmuka dikelola melalui:
+style.css, dashboard.css, form.css
 
-We hope this repository provides a clear understanding of our project. 😊
+**🔧 Teknologi yang Digunakan**
+Frontend: HTML, CSS, JavaScript
 
----
+Backend: PHP Native
 
-## 🚀 How to Use
-1. Clone this repository locally:
-   ```bash
-   git clone https://github.com/AbidRafiul/UAS_Kelompok2.git
-   ```
-2. Open the document files in the "Dokumen UAS" folder.
-3. Follow the system usage manual for further information.
+Database: MySQL
+
+Library Tambahan: PHPMailer (Composer)
+
+**📚 Dokumentasi**
+Struktur database: database.php
+Proses transaksi: proses_beli.php, pembayaran.php
+Tampilan & desain UI: file PHP dan CSS
+
+**👩‍💻 Tim Kontributor**
+Nama	GitHub
+Amalia Khoirun Nisa	               | 🌐 AmaliaKhoirun (jika ada akun GitHub)
+Annisa Dea Safira	                 | 🌐 AnnisaDea (jika ada akun GitHub)
+Nanda Herni Pramudyaningtiyas      | 🌐 NandaHerni (jika ada akun GitHub)
+
+**🚀 Cara Menjalankan Aplikasi**
+Akses melalui browser di http://localhost/Caffe-ShopSugarDaddy.
+Login dengan akun yang telah dibuat atau buat akun baru jika tersedia.
+
+**✨ Tentang Proyek**
+Website ini bertujuan memudahkan pengelolaan kafe secara digital, dengan fitur-fitur utama seperti:
+Sistem login pelanggan dan admin
+Manajemen produk makanan & minuman
+Keranjang belanja & checkout
+Pembayaran dan notifikasi
+
+Terima kasih telah mengunjungi proyek ini! Silakan gunakan sebagai referensi, bahan pembelajaran, atau dasar untuk pengembangan lebih lanjut. 🙌
