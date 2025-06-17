@@ -1,0 +1,10 @@
+{
+    "name": "caffeshop/project-sd",
+    "description": "proyek web caffeshop",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}

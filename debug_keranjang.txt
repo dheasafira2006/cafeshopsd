@@ -1,0 +1,26 @@
+Array
+(
+    [keranjang] => Array
+        (
+            [0] => Array
+                (
+                    [id_menu] => 1
+                    [nama] => Americano
+                    [harga] => 15000
+                    [jumlah] => 1
+                )
+
+            [1] => Array
+                (
+                    [id_menu] => 15
+                    [nama] => croissant
+                    [harga] => 15000
+                    [jumlah] => 1
+                )
+
+        )
+
+    [metode_pengambilan] => Dine-in
+    [alamat] => 
+    [metode_pembayaran] => Transfer Bank
+)

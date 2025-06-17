@@ -1,0 +1,36 @@
+Array
+(
+    [request] => Array
+        (
+            [keranjang] => Array
+                (
+                    [0] => Array
+                        (
+                            [nama] => Americano
+                            [harga] => 25000
+                            [jumlah] => 3
+                        )
+
+                    [1] => Array
+                        (
+                            [nama] => Vanilla Latte
+                            [harga] => 20000
+                            [jumlah] => 1
+                        )
+
+                )
+
+            [metode_pengambilan] => Dine-in
+            [alamat] => 
+            [metode_pembayaran] => Transfer Bank
+        )
+
+    [session] => Array
+        (
+            [email] => aldila@gmail.com
+            [role] => karyawan
+            [nama] => adila sifa
+            [ID_USERS] => 
+        )
+
+)
