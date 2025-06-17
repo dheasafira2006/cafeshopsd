@@ -1,8 +1,8 @@
-# 🌟 UAS Kelompok 2 🌟
+# 🌟 UAS Kelompok 5 🌟
 
-## 📂 Daftar Isi Folder
+## 📂 Struktur Proyek
 - **Dokumen UAS** 📄
-  - 📘 Dokumentasi Awal Proyek Pengembangan Basis Data Toko Risky Bawang dan Palawija.pdf
+  - 📘 Dokumentasi Awal Proyek Website Caffe Shop Sugar Daddy.pdf
   - 📙 Fitur Database[1].pdf
   - 📗 LAPORAN TUGAS UAS kelompok 2.pdf
   - 📕 MANUAL PENGGUNAAN SISTEM MANAJEMEN.pdf
@@ -27,10 +27,11 @@ For detailed documentation, refer to the files linked below (written in Indonesi
 ---
 
 ## 🤝 Contributors
-| Contributor       | GitHub Profile                                  |
-|-------------------|------------------------------------------------|
-| **Adia Sandra**  | [🌐 Profile](https://github.com/sandraalmeera) |
-| **Yessica**      | [🌐 Profile](https://github.com/yesicafapa)    |
+| Contributor                        | GitHub Profile                                      |
+|------------------------------------|-----------------------------------------------------|
+| **Amalia Khoirun Nisa**            | [🌐 Profile](https://github.com/sandraalmeera)     |
+| **Annisa Dea Safira**              | [🌐 Profile](https://github.com/yesicafapa)        |
+|  **Nanda Herni Pramudyaningtiyas** |   
 
 ---
 
