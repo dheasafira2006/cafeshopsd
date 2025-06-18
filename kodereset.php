@@ -17,12 +17,12 @@ function kirim_email($to, $name, $subject, $body) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'nandahernipramudyaningtiyas@gmail.com';
-        $mail->Password   = 'pqobftgxxsuxplug';
+        $mail->Username   = 'alamatemail';
+        $mail->Password   = 'password';
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
-        $mail->setFrom('nandahernipramudyaningtiyas@gmail.com', 'Email Verifikasi');
+        $mail->setFrom('alamatemail', 'Email Verifikasi');
         $mail->addAddress($to, $name);
         $mail->isHTML(true);
         $mail->Subject = $subject;
